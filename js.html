@@ -43,7 +43,6 @@
              });
          }
          */
-         
          function add(n1,n2,time){
              return new Promise(function(reslove,reject){
                 window.setTimeout(function(){
@@ -51,11 +50,12 @@
             },time);
              });
         }
+         
 
          async function test(){
             console.log(1);
              let reslut1=await add(5,6,2000);
-             let reslut2=await add(6,7,2000);
+             let reslut2=await add(90,7,2000);
              console.log(reslut1*reslut2);
              }
              
